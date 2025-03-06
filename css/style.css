@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+:root {
+    --font: "Open Sans", sans-serif;
+
+    --background-color: #F5F4F0;
+    --border: #d9d9d9;
+    --text-primary: #1b1b1b;
+    --text-secundary: #333333;
+    --text-tertiary: #696969;
+    --text-headline: #e1624f;
+
+    --accent-blue: #0c51a7;
+    --accent-orange: #e95e10;
+    --accent-pink: #e5245e;
+    --accent-purple: #591b98; 
+}
