@@ -15,3 +15,49 @@
     --accent-pink: #e5245e;
     --accent-purple: #591b98; 
 }
+ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font);
+}
+
+/* container styling */
+
+#container {
+    min-width: 300px;
+    max-width: 1120px;
+    margin: auto;
+}
+
+/* header styling */
+
+header {
+    padding: 40px 0;
+}
+
+.headline {
+    text-transform: uppercase;
+    color: var(--text-headline);
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0 0 8px;
+    margin: 0;
+}
+
+#image {
+    padding: 0 0 40px;
+    text-align: center;
+}
+
+#image img {
+    width: 100%;
+    border-radius: 28px;
+}
+
+#image p {
+    padding-top: 24px;
+}
+
+/* main styling */
