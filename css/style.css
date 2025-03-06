@@ -60,6 +60,10 @@ header {
     margin: 0;
 }
 
+h1 {
+    font-size: 48px;
+}
+
 #image {
     padding: 0 0 40px;
     text-align: center;
