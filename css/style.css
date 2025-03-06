@@ -4,16 +4,14 @@
     --font: "Open Sans", sans-serif;
 
     --background-color: #F5F4F0;
-    --border: #d9d9d9;
     --text-primary: #1b1b1b;
     --text-secundary: #333333;
-    --text-tertiary: #696969;
     --text-headline: #e1624f;
 
     --accent-blue: #0c51a7;
     --accent-orange: #e95e10;
     --accent-pink: #e5245e;
-    --accent-purple: #591b98; 
+    --accent-purple: #591b98;
 }
  
 * {
@@ -22,6 +20,10 @@
     box-sizing: border-box;
     font-family: var(--font);
     
+}
+
+body {
+    background-color: var(--background-color);
 }
 
 /* container style */
@@ -66,6 +68,7 @@ header {
 #image img {
     width: 100%;
     border-radius: 28px;
+    box-shadow: 2px 2px 2px #00000050;
 }
 
 #image p {
@@ -86,6 +89,7 @@ ol img {
     width: 100%;
     height: 350px;
     border-radius: 28px;
+    box-shadow: 2px 2px 2px #00000050;
 }
 
 ol li {
@@ -93,7 +97,6 @@ ol li {
     margin-left: 20px;
     font-weight: bold;
 }
-
 
 ul {
     padding-bottom: 48px;
@@ -128,3 +131,15 @@ h3 {
     color: var(--accent-orange);
 }
 
+/* footer style */
+
+footer p {
+    font-size: 13px;
+    padding: 50px;
+    text-align: center;
+    color: var(--text-primary);
+}
+
+footer a {
+    color: var(--text-primary);
+}
