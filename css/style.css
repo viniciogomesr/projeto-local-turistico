@@ -21,17 +21,29 @@
     padding: 0;
     box-sizing: border-box;
     font-family: var(--font);
+    
 }
 
-/* container styling */
+/* container style */
 
 #container {
     min-width: 300px;
     max-width: 1120px;
+    padding: 0 20px;
     margin: auto;
+    color: var(--text-primary);
 }
 
-/* header styling */
+#container > p {
+    padding-top: 40px;
+    text-align: center;
+}
+
+p {
+    color: var(--text-secundary);
+}
+
+/* header style */
 
 header {
     padding: 40px 0;
@@ -60,4 +72,59 @@ header {
     padding-top: 24px;
 }
 
-/* main styling */
+/* main style */
+
+article {
+    padding: 64px 0;
+}
+
+h2 {
+    padding-bottom: 8px;
+}
+
+ol img {
+    width: 100%;
+    height: 350px;
+    border-radius: 28px;
+}
+
+ol li {
+    padding-top: 20px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+
+ul {
+    padding-bottom: 48px;
+}
+
+ul li {
+    padding: 0;
+    list-style-type: disc;
+}
+
+h3 {
+    padding-bottom: 4px;
+}
+
+.historia {
+    list-style-type: disc;
+}
+
+.historia p {
+    color: var(--accent-blue);
+}
+
+.casais p {
+    color: var(--accent-purple);
+}
+
+.familias p {
+    color: var(--accent-pink);
+}
+
+.orcamento p {
+    color: var(--accent-orange);
+}
+
